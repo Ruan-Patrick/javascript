@@ -1,14 +1,14 @@
 const header = document.getElementById('cabecalho');
 
-const fruta = 'abacaxi';
+const fruta = 'manga';
 
 const imageHeader = document.createElement('img');
 imageHeader.setAttribute('id','itanhaem');
 if(fruta === 'manga'){
-    imageHeader.src = 'manga.jpg';
+    imageHeader.src = 'imagens/manga.jpg';
 }
 else if(fruta === 'abacaxi'){
-imageHeader.src = 'abacaxi.jpg';
+imageHeader.src = 'imagens/abacaxi.jpg';
 }
 else{
     header.style.backgroundColor = 'black';
