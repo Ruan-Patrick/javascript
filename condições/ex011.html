@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cidadania</title>
+    <style>
+      body {
+        background: rgb(136, 136, 161);
+      }
+    </style>
+</head>
+<body>
+    <h1>sistema de cidadania</h1>
+    país de origem <input type="text" name="txtp" id="txtp">
+    <input type="button" value="Verificar" onclick="Calcular()">
+    <div id="res" class="res"></div>
+    <script>
+        function Calcular() {
+            var txtp = document.querySelector('input#txtp')
+            var res = document.querySelector('div#res')
+            var pais = (txtp.value)
+                res.innerHTML = `<p>seu país é <strong>${pais}</strong>:</p>`
+                if (pais == 'Brasil') {
+                    res.innerHTML +=`<p>Você é Brasileiro!</p>`
+                    div.res += `style.background`
+                }
+                else {
+                    res.innerHTML += `<p> você é Estrangeiro!</p>`
+                }
+            }
+    </script>
+</body>
+</html>
