@@ -1,0 +1,1 @@
+alert('Eae pega manga muleque doido,apara logo aquela ali pra mim')
